@@ -1,7 +1,7 @@
 class Solution {
     public static boolean checkRedundancy(String s) {
         Stack<Character> stack = new Stack<>();
-        ArrayList<Character> operators = new ArrayList<>(Arrays.asList('+','-','*','/'));
+        List<Character> operators = List.of('+','-','*','/');
         
         for(char ch : s.toCharArray()) {
             if (ch == '(' || operators.contains(ch)) {
