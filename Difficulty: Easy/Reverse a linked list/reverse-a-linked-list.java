@@ -12,22 +12,21 @@ class Node {
 
 class Solution {
     Node reverseList(Node head) {
-        // code here
-        if(head == null || head.next == null) return head;
-        
-        Node prev = null;
-        Node current = head;
-        Node next = head.next;
-        
-        while(next != null) {
-            current.next = prev;
-            prev = current;
-            current = next;
-            next = next.next;
-        }
-        current.next = prev;
-        head = current;
-        
-        return head;
+        if(head == null || head.next == null )  {
+           return head;
+       }
+
+       Node prev = null;
+       Node curr = head;
+
+       while(curr != null) {
+           Node next = curr.next; // currP1 -> current+1
+           curr.next = prev;
+           prev = curr;
+           curr = next;
+       }
+       head = prev;
+
+       return head;
     }
 }
