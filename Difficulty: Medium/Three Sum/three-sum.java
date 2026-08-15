@@ -4,7 +4,7 @@ class Solution {
         ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
         Arrays.sort(arr);
         
-        for(int i=0; i<arr.length; i++) {
+        for(int i=0; i<arr.length - 2; i++) {
             if(i>0 && arr[i] == arr[i-1]) {
                 continue;
             }
