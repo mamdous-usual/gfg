@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/bits-counting/1">Build Bit Count Array</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 14pt;">Given an integer <strong>n</strong> , return an array containing the number of set bits (1s) in the binary representation of every integer in the range <strong>[0, n].</strong></span></p>
+<p><span style="font-size: 14pt;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong style="font-size: 14pt;">Input: </strong><span style="font-size: 14pt;">n = 3
+</span><strong style="font-size: 14pt;">Output:&nbsp;</strong><span style="font-size: 14pt;">[0, 1, 1, 2]
+</span><strong style="font-size: 14pt;">Explanation</strong><span style="font-size: 14pt;">: </span>The numbers from 0 to 3 have 0, 1, 1, and 2 set bits respectively.</span></pre>
+<pre><span style="font-size: 14pt;"><strong style="font-size: 14pt;">Input</strong><span style="font-size: 14pt;">: n = 7
+</span><strong style="font-size: 14pt;">Output: </strong><span style="font-size: 14pt;">[0, 1, 1, 2, 1, 2, 2, 3]
+</span><strong style="font-size: 14pt;">Explanation</strong><span style="font-size: 14pt;">: </span>The numbers from 0 to 7 have 0, 1, 1, 2, 1, 2, 2, and 3 set bits respectively.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>0 ≤ n ≤ 10<sup>5</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Bloomberg</code>&nbsp;<code>Facebook</code>&nbsp;<code>Adobe</code>&nbsp;<code>Google</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Apple</code>&nbsp;<code>Yahoo</code>&nbsp;<code>Nvidia</code>&nbsp;<code>Uber</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Bit Magic</code>&nbsp;<code>Dynamic Programming</code>&nbsp;<code>Arrays</code>&nbsp;
